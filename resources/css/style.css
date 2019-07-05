@@ -181,6 +181,7 @@ a:active {
 /*HEADER*/
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-attachment: fixed; /*ESTA PROPIEDAD PERMITE QUE LA IMAGENQUEDE FIJA DE FONDO CUANDO SE HACE SCROLL HACIA ABAJO O ARRIBA*/
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -339,5 +340,45 @@ header {
 
 .city-feature {
     margin-bottom: 5px;
+}
+
+/*****************************************/
+/*TESTIMONIALS*/
+
+.section-testimonials {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed; /*ESTA PROPIEDAD PERMITE QUE LA IMAGENQUEDE FIJA DE FONDO CUANDO SE HACE SCROLL HACIA ABAJO O ARRIBA*/
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40PX;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: -5PX;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
