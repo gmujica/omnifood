@@ -6,12 +6,14 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     color: #555;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -320,7 +322,7 @@ header {
     padding: 5px;
     float: left;
     font-size: 150%;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 .btn-app:link,
