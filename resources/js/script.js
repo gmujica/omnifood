@@ -1,3 +1,5 @@
+/* STICKY NAV WITH JQUERY PLUGIN: waypoints */
+
 $(document).ready(function() {
 
     $('.js--section-features').waypoint(function(direction) {
@@ -10,15 +12,22 @@ $(document).ready(function() {
     {
        offset: '60px'
     });
-
     /* argumento direction permite identificar si el scroll va hacia abajo o hacia arriba */
-    /*
-    var waypoints = $('#handler-first').waypoint(function(direction) {
-    notify(this.element.id + ' hit 25% from top of window') 
-    },
-     {
-        offset: '25%'
-    })
-    */
 
-})
+    /*AUTO SCROLL ON BUTTONS */
+
+    $('.js--scroll-to-plans').click(function() {
+        $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
+    });
+
+    $('.js--scroll-to-start').click(function() {
+        $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
+    });
+
+    /* NAVIGATION AUTO SCROLL */
+
+    $(function() {
+        
+    })
+
+});
