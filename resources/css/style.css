@@ -195,7 +195,7 @@ input[type=submit] {
 /*****************************************/
 /*HEADER*/
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
     background-attachment: fixed; /*ESTA PROPIEDAD PERMITE QUE LA IMAGENQUEDE FIJA DE FONDO CUANDO SE HACE SCROLL HACIA ABAJO O ARRIBA*/
     background-size: cover;
     background-position: center;
@@ -424,7 +424,7 @@ header {
 /*TESTIMONIALS*/
 
 .section-testimonials {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed; /*ESTA PROPIEDAD PERMITE QUE LA IMAGENQUEDE FIJA DE FONDO CUANDO SE HACE SCROLL HACIA ABAJO O ARRIBA*/
